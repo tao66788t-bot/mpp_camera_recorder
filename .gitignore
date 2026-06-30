@@ -1,0 +1,25 @@
+# Build outputs
+ipc_firmware
+*.o
+*.a
+*.so
+
+# Runtime captures and logs
+*.log
+*.mp4
+*.png
+*.yuv
+
+# Large archives and generated checksums
+*.zip
+*_checksums.txt
+
+# Local backup snapshots stay on disk, not in Git
+backup_*/
+backup_*
+
+# Temporary analysis helpers
+tmp_*.py
+
+# Model artifacts can be restored from SDK / board-side backup
+*.nb
