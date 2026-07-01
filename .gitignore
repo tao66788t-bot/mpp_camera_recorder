@@ -9,6 +9,7 @@ ipc_firmware
 *.mp4
 *.png
 *.yuv
+!assets/*.png
 
 # Large archives and generated checksums
 *.zip
@@ -17,9 +18,15 @@ ipc_firmware
 # Local backup snapshots stay on disk, not in Git
 backup_*/
 backup_*
+!docs/backup_restore_guide_*.md
 
 # Temporary analysis helpers
 tmp_*.py
+__pycache__/
+*.pyc
+
+# Runtime evidence / generated media
+artifacts/
 
 # Model artifacts can be restored from SDK / board-side backup
 *.nb

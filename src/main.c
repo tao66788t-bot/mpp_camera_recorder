@@ -94,7 +94,8 @@ int main(int argc, char **argv)
     c_vi2.height = 800;
     c_vi2.fps = 20;
     c_vi2.buf_num = 5;
-    c_vi2.pix_fmt = MM_PIXEL_FORMAT_YUV_SEMIPLANAR_420;
+    /* LCD 蓝脸/负片时，仅切换 VI2 预览链的 UV 顺序；VI0 录制主链保持不动。 */
+    c_vi2.pix_fmt = MM_PIXEL_FORMAT_YVU_SEMIPLANAR_420;
     c_vi2.color_space = V4L2_COLORSPACE_JPEG;
     c_vi2.use_current_win = 0;
 
