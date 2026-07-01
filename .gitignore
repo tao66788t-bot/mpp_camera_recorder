@@ -32,4 +32,5 @@ artifacts/
 
 # Model artifacts can be restored from SDK / board-side backup
 *.nb
+!Facedet_480_288_nv12.nb
 !backup_Facedet_480_288_nv12_20260701.nb
