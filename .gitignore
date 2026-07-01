@@ -19,6 +19,8 @@ ipc_firmware
 backup_*/
 backup_*
 !docs/backup_restore_guide_*.md
+!backup_Facedet_480_288_nv12_20260701.nb
+!backup_isp0_1920_1088_20_0_ctx_saved_20260701.bin
 
 # Temporary analysis helpers
 tmp_*.py
@@ -30,3 +32,4 @@ artifacts/
 
 # Model artifacts can be restored from SDK / board-side backup
 *.nb
+!backup_Facedet_480_288_nv12_20260701.nb

@@ -1,5 +1,0 @@
-[ROUTER] ok=100 packs=1 pts=5000000 len0=12000 len1=0 len2=0
-[ROUTER] ok=200 packs=1 pts=10000000 len0=11800 len1=0 len2=0
-[ROUTER] audio_ok=100 last_len=512 last_pts=6400000
-[ROUTER] audio_ok=200 last_len=512 last_pts=12800000
-[ROUTER] exit, video_ok=7575 audio_ok=5972 fail=4945

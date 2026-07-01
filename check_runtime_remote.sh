@@ -12,6 +12,9 @@ echo '=== board ipc_firmware ==='
 timeout 8 adb shell ls -l /mnt/UDISK/ipc_firmware || true
 timeout 8 adb shell md5sum /mnt/UDISK/ipc_firmware || true
 
+echo '=== board model ==='
+timeout 8 adb shell ls -l /mnt/UDISK/Facedet_480_288_nv12.nb || true
+
 echo '=== board isp ctx ==='
 timeout 8 adb shell ls -l /mnt/extsd/isp0_1920_1088_20_0_ctx_saved.bin || true
 
