@@ -126,6 +126,7 @@ adb shell "ps | grep ipc"
 
 - [代码结构说明](D:\BaiduNetdiskDownload\全志mpp文档资料和源代码\mpp_camera_recorder\docs\code_architecture_20260701.md)
 - [最终版本使用说明](D:\BaiduNetdiskDownload\全志mpp文档资料和源代码\mpp_camera_recorder\docs\final_release_usage_20260701.md)
+- [GitHub 克隆后复现说明](D:\BaiduNetdiskDownload\全志mpp文档资料和源代码\mpp_camera_recorder\docs\github_reproduction_guide_20260701.md)
 
 ## 8. 重要结论
 
